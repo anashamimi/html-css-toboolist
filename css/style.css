@@ -6,7 +6,7 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-/* Background */
+/* Backgrounds and colors*/
 
 body {
     background-color: whitesmoke;
@@ -20,6 +20,9 @@ body {
     background-color: #47adf1;
 }
 
+.color-grey{
+    color: #3d414b;
+}
 /* Header */
 
 header {
@@ -39,19 +42,52 @@ h1 {
 
 /* /Fine header */
 
+/* Inizio main */
+
+/* sezione button */
 .sezione-bottoni {
 
     width: 70%;
     height: 60px;
     margin: 50px auto 0px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
 }
 
 #add-task {
     color: white;
+    height: 35px;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     margin-top: 12px;
     margin-left: 7%;
 }
+
+#add-section {
+    color: #d1d6d9;
+    height: 35px;
+    padding: 9px 20px;
+    border: 2px solid #d1d6d9;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+/* / sezione button */
+
+/* sezione elenco */
+.sezione-elenco{
+    width: 70%;
+    height: auto;
+    margin: 5px auto 0px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    padding: 3% 5%;
+}
+
+.triangolo{
+    font-size: 20px;
+}
+/* / sezione elenco */
