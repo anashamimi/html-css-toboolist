@@ -20,9 +20,36 @@ body {
     background-color: #47adf1;
 }
 
-.color-grey{
-    color: #3d414b;
+.bg-orange{
+    background-color: #f29e33;
 }
+
+.bg-lavanda{
+    background-color: #9c72e4;
+}
+
+.bg-pink{
+    background-color: #d863a1;
+}
+
+.bg-yellow{
+    background-color: #b0c926;
+}
+
+
+.color-grey{
+    color: #5e6472;
+}
+
+.color-green{
+    color: #5bbba2;
+}
+
+.color-red{
+    color: #ea4f45;
+}
+
+
 /* Header */
 
 header {
@@ -88,6 +115,50 @@ h1 {
 }
 
 .triangolo{
+    font-size: 28px;
+}
+
+.titolo-elenco{
     font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 1% 0%;
+    font-weight: bold;
+    color: #5e6472;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #5bbba2;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    
+
+}
+
+.cross{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ea4f45;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.editorial{
+    color: white;
+    padding: 7px 14px;
+    border-radius: 11px;
+    display: inline-block;
+    font-size: 11px;
 }
 /* / sezione elenco */
