@@ -1,0 +1,57 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+
+body {
+    background-color: whitesmoke;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue{
+    background-color: #47adf1;
+}
+
+/* Header */
+
+header {
+    height: 80px;
+}
+
+
+img {
+    margin: 15px 0px 15px 15px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 45px;
+}
+
+/* /Fine header */
+
+.sezione-bottoni {
+
+    width: 70%;
+    height: 60px;
+    margin: 50px auto 0px;
+}
+
+#add-task {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 7%;
+}
